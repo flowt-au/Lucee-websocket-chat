@@ -1,0 +1,21 @@
+
+version: "3"
+
+services:
+  lucee:
+    # Build using ./Dockerfile
+    build: .
+
+    volumes:
+      # Mount the web root so as you make changes to your CFML the container is updated.
+      - ./www:/var/www
+
+      # Copy the password file so when you start the new container Lucee knows the admin password.
+      - ./pw.txt:/opt/lucee/server/lucee-server/context/password.txt
+
+    restart: always
+
+    ports:
+    # You can map a different port, if required.
+    # eg 8890:8888
+    - 8890:8888
