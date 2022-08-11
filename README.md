@@ -6,7 +6,7 @@ The original example is now a few years old and a few things have changed.
 
 This repo is an adaptation of Igal's original Chat example, updated to work with Lucee 5.3 and Docker. It doesn't go into great detail - it is just enough to provide a working example.
 
-Thanks to [@andreas](https://dev.lucee.org/t/port-8888-not-working-websockets/6551/15) and [@psarin](https://dev.lucee.org/t/port-8888-not-working-websockets/6551/15) for responding to my [Lucee Forum support request](https://dev.lucee.org/t/websocket-getting-started-and-lucee-docker/10841), which enabled me to get this example working. :-)
+Thanks to [@andreas](https://dev.lucee.org/t/port-8888-not-working-websockets/6551/15) and [@psarin](https://github.com/isapir/lucee-websocket/pull/28) for responding to my [Lucee Forum support request](https://dev.lucee.org/t/websocket-getting-started-and-lucee-docker/10841), which enabled me to get this example working. :-)
 
 For background and some explanations: here is the [original video](https://www.youtube.com/watch?v=rvB7PcNylVY) and the chat example wiki: [https://github.com/isapir/lucee-websocket/wiki/Example-Chat](https://github.com/isapir/lucee-websocket/wiki/Example-Chat)
 
