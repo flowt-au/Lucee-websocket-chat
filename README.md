@@ -13,6 +13,8 @@ For background and some explanations: here is the [original video](https://www.y
 ## Lucee and Docker
 If you are new to Lucee and / or Docker you might want to check [this tutorial repo](https://github.com/flowt-au/Lucee-docker-how-to).
 
+I am using the Lucee Tomcat docker image.
+
 ## To setup this example
 Once you have cloned this repo...
 
@@ -40,7 +42,7 @@ Once you have cloned this repo...
 
 ## Run the example
 1. Browse to this url in (say) Brave Web Browser: http://localhost:8890/WSexamples/chat/?username=Iambrave
-2. Browse to url in some other browser (eg Chrome, Edge, Firefox or Safari): http://localhost:8890/WSexamples/chat/?username=iamchrome
+2. Browse to this url in some other browser (eg Chrome, Edge, Firefox or Safari): http://localhost:8890/WSexamples/chat/?username=iamchrome
 3. For clarity, you can run this on any port you map in the `docker-compose.yml` file. To illustrate, I set port 8890 in this example, but choose your own (including 8888).
 4. Repeat for any other browser instances you want. Each needs a different `username` which can be anything you like.
 
